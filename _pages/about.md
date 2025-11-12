@@ -16,9 +16,19 @@ Humans are the best part of my work, as participants, collaborators or colleague
 
 {% include base_path %}
 
-Outside The Lab
+Outside the Lab
 ===============
 My simple pleasures include coming up with article titles heavy on wordplay, walking on crunchy leaves in the autumn and typing with a fresh set of nails. I like thinking about thinking, interdisciplinary knowledge production and creative information visualisation. I have a profound love for cats. But my greatest pleasure lies in reading and collecting well-conceived and beautifully-worded ideas.
+
+<hr />
+
+Research Interests
+===============
+🧠 Expertise, bias, and clinical decision-making
+👥 Team interaction and communication dynamics
+🕸️ Distributed cognition in high-stakes settings
+⚕️ Patient safety and healthcare equity
+📊 Mixed-methods research
 
 <hr />
 
