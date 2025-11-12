@@ -3,5 +3,11 @@
 {% assign edu = post %}
 
 <li>
-    {{ edu.name }}, {{ edu.uni }}, {{ edu.thesis }}, {{ edu.advisors }}
+    <div>{{ edu.name }} | {{ edu.uni }}</div>
+    {% if edu.thesis %}
+    <div class="edu-thesis">Thesis: {{ edu.thesis }}</div>
+    {% endif %}
+    {% if edu.advisors %}
+    <div class="edu-advisors">Advisors: {{ edu.advisors }}</div>
+    {% endif %}
 </li>

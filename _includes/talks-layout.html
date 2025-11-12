@@ -3,5 +3,6 @@
 {% assign talk = post %}
 
 <li>
-    {{ talk.name }}, {{ talk.venue }}, {{ talk.location }}
+    <div class="talk-title">{{ talk.title }}</div>
+    <div class="talk-venue">{{ talk.venue }}, {{ talk.location }}</div>
 </li>

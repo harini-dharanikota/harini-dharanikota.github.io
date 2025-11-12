@@ -6,5 +6,3 @@ venue: "Centre for Medical Informatics, The University of Edinburgh, UK"
 date: 2025-01-01
 location: "Edinburgh, Scotland"
 ---
-
-Talk description

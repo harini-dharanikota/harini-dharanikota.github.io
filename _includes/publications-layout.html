@@ -15,7 +15,7 @@
 
       <div class="paper-title">{{ paper.title }}</div>
       <div class="conference-date">
-          {{ paper.conference }}, {{ paper.date | date: "%B %Y" }}
+          {{ paper.venue }}, {{ paper.date | date: "%B %Y" }}
           <div class="paper-authors">{% for author in paper.authors %} {% if author.url != nil %} <a href="{{ author.url }}">{{ author.name }}</a>{% else %} {{ author.name }}{% endif %}{% if author != paper.authors.last %}, {% endif %} {% endfor %}</div>
       </div>
       {% if paper.paperlink %}<a href="{{ paper.paperlink }}" class="paper-details"><i class="fas fa-link">&nbsp;</i>Paper</a>&nbsp;&nbsp;{% endif %}
