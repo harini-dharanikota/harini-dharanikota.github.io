@@ -1,0 +1,10 @@
+{% include base_path %}
+
+{% assign vol = post %}
+
+<li>
+    <div class="vol-title">{{ vol.title }}</div>
+    <div class="vol-loc">{{ vol.loc }}</div>
+    <div class="vol-date">{{ vol.from | date: "%B %Y" }} - {{ vol.to | date: "%B %Y" }}</div>
+    <div class="vol-desc">{{ vol.description }}</div>
+</li>
