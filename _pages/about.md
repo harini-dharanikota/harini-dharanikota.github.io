@@ -24,11 +24,13 @@ My simple pleasures include coming up with article titles heavy on wordplay, wal
 
 Research Interests
 ===============
-🧠 Expertise, bias, and clinical decision-making
-👥 Team interaction and communication dynamics
-🕸️ Distributed cognition in high-stakes settings
-⚕️ Patient safety and healthcare equity
-📊 Mixed-methods research
+<ul class="research-interests" style="list-style: none; padding-left: 0;">
+  <li>🧠 Expertise, bias, and clinical decision-making</li>
+  <li>👥 Team interaction and communication dynamics</li>
+  <li>🕸️ Distributed cognition in high-stakes settings</li>
+  <li>⚕️ Patient safety and healthcare equity</li>
+  <li>📊 Mixed-methods research</li>
+</ul>
 
 <hr />
 
@@ -42,7 +44,7 @@ Publications
 
 <hr />
 
-Talks
+Talks, Panels and Presentations
 =======
 <ul>
   {% for post in site.talks reversed %}
@@ -54,7 +56,7 @@ Talks
 
 Education
 =======
-<ul>
+<ul class="fa-ul">
   {% for post in site.education reversed %}
     {% include education-layout.html %}
   {% endfor %}
