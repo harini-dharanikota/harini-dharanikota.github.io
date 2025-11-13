@@ -1,8 +1,9 @@
 ---
-title: "Oral Presenter, 'Social Network Analysis of Cancer Multidisciplinary Team Dynamics: Preliminary Findings and Opportunities', Data-Driven Surgery Conference (2024)"
+title: "Social Network Analysis of Cancer Multidisciplinary Team Dynamics: Preliminary Findings and Opportunities"
+role: "Oral Presentation"
 collection: talks
 type: "Talk"
-venue: "Data-Driven Surgery Conference, Rigshospitalet, University of Copenhagen"
+venue: "Data-Driven Surgery Conference (2024)"
 date: 2024-01-01
-location: "Copenhagen, Denmark"
+location: "Rigshospitalet, University of Copenhagen, Copenhagen, Denmark"
 ---

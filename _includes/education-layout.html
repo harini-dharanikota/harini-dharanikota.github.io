@@ -2,8 +2,9 @@
 
 {% assign edu = post %}
 
-<li>
-    <div>{{ edu.name }} | {{ edu.uni }}</div>
+<li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>
+    <div>{{ edu.name }}</div>
+    <div>{{ edu.uni }}</div>
     {% if edu.thesis %}
     <div class="edu-thesis">Thesis: {{ edu.thesis }}</div>
     {% endif %}
