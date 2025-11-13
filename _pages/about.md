@@ -36,7 +36,7 @@ Research Interests
 
 Publications
 =======
-<ul>
+<ul class="fa-ul">
   {% for post in site.publications reversed %}
     {% include publications-layout.html %}
   {% endfor %}
