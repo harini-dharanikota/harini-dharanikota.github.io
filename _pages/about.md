@@ -36,7 +36,7 @@ Research Interests
 
 Publications
 =======
-<ul>
+<ul class="fa-ul">
   {% for post in site.publications reversed %}
     {% include publications-layout.html %}
   {% endfor %}
@@ -44,9 +44,11 @@ Publications
 
 <hr />
 
-Talks, Panels and Presentations
-=======
-<ul>
+<h1 id="talks">Talks, Panels and Presentations</h1>
+<p align="center" style="max-width: 95%; margin: 0 auto;">
+  <img src="images/talks.jpg" alt="Talks, Panels and Presentations">
+</p>
+<ul class="fa-ul">
   {% for post in site.talks reversed %}
     {% include talks-layout.html %}
   {% endfor %}
